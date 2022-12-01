@@ -1,3 +1,13 @@
+  templates:
+  Studio:
+    optional:
+      - company
+    tmdb_company: <<company>>
+    sort_title: +2_<<collection_name>>
+    sync_mode: sync
+    smart_label: release.desc
+    
+collections:
   Marvel Studios:
     template: {name: Studio}
     imdb_list: https://www.imdb.com/list/ls009410711/
