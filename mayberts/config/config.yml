@@ -3,6 +3,7 @@ libraries:              # Library mappings must have a colon (:) placed after th
     metadata_path:
     - file: config/Movies.yml
     - repo: movie/seasonal
+    - repo: movie/franchise
 
 
 
@@ -41,7 +42,7 @@ settings:                  # Can be individually specified per library as well
   playlist_sync_to_users: all
   playlist_report: true
   verify_ssl: true
-  custom_repo: https://github.com/mayberts/Plex-Meta-Manager-Configs/tree/master/PMM/
+  custom_repo: https://github.com/mayberts/Plex-Meta-Manager-Configs/tree/master/mayberts/
   check_nightly: true
   visible_library: false
   show_unconfigured: true
