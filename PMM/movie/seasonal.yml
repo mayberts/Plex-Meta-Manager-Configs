@@ -199,13 +199,13 @@ collections:
         visible_shared_<<key>>: true
         image: seasonal/<<key>>
       - name: arr
-      imdb_list: 
-        - https://www.imdb.com/list/ls027353066/
-        - https://www.imdb.com/list/ls031382358/
-        - https://www.imdb.com/list/ls000096828/
-        - https://www.imdb.com/list/ls097394442/
-        - https://www.imdb.com/list/ls068976997/
-        - https://www.imdb.com/list/ls027567380/
+    imdb_list: 
+      - https://www.imdb.com/list/ls027353066/
+      - https://www.imdb.com/list/ls031382358/
+      - https://www.imdb.com/list/ls000096828/
+      - https://www.imdb.com/list/ls097394442/
+      - https://www.imdb.com/list/ls068976997/
+      - https://www.imdb.com/list/ls027567380/
 
   New Year's Day:
     variables:
