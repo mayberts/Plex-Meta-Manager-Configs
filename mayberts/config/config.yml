@@ -1,0 +1,90 @@
+libraries:              # Library mappings must have a colon (:) placed after them
+  Movies:
+    metadata_path:
+    - file: config/Movies.yml
+    - repo: movie/seasonal
+
+
+
+settings:                  # Can be individually specified per library as well
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: true
+  assets_for_all: false
+  sync_mode: append
+  show_unmanaged: true
+  show_filtered: false
+  show_missing: true
+  save_missing: true
+  run_again_delay: 2
+  missing_only_released: false
+  create_asset_folders: false
+  collection_minimum: 1
+  delete_below_minimum: false
+  tvdb_language: default
+  show_missing_assets: true
+  asset_depth: 0
+  prioritize_assets: false
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  default_collection_order:
+  item_refresh_delay: 0
+  delete_not_scheduled: false
+  only_filter_missing: false
+  show_options: false
+  ignore_ids:
+  ignore_imdb_ids:
+  playlist_sync_to_users: all
+  playlist_report: true
+  verify_ssl: true
+  custom_repo: https://github.com/mayberts/Plex-Meta-Manager-Configs/tree/master/PMM/
+  check_nightly: true
+  visible_library: false
+  show_unconfigured: true
+
+plex:                       # Can be individually specified per library as well
+  url: http://192.168.1.36:32400
+  token: 9aytgvRExc7tqswWGoym
+  timeout: 60
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+tmdb:
+  apikey: d0dd95a44e84458783d1155635b73bb9
+  language: en
+  cache_expiration: 60
+  region:
+trakt:
+  client_id: 2b56c75580529c75d08005ae6d124e0842c0c05a7bddafe8c8002366a06427a5
+  client_secret: a4564575281a0ce64009571c048e8abfa27fe74c6632d70e37993e5958326f23
+  pin:
+# Everything below this line is automatically generated
+  authorization:
+    access_token: acecfad8d0ede39fa79ef4cdf25e95f0d052c7c793b2bb3d569f1bc2f5231e27
+    token_type: Bearer
+    expires_in: 7889238
+    refresh_token: d6bfc26b4dbcef9ad4f474c10979721bce133a06df2291729acd3ea7f2f454a8
+    scope: public
+    created_at: 1664274423
+  cache_expiration: 60
+  region:
+radarr:
+  url: http://192.168.1.36:7878
+  token: e35bdc7b2da945a6af93b1f84a4b4b62
+  add_missing: false
+  add_existing: false
+  root_folder_path: /movies
+  monitor: true
+  availability: announced
+  quality_profile: HD-1080p
+  tag: pmm
+  search: true
+  upgrade_existing: false
+  radarr_path:
+  plex_path:
+
+
