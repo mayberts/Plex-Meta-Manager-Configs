@@ -1,11 +1,5 @@
-templates:
-  Studio:
-    optional:
-      - company
-    tmdb_company: <<company>>
-    sort_title: +2_<<collection_name>>
-    sync_mode: sync
-    smart_label: release.desc
+external_templates:
+  git: mayberts/templates
     
 collections:
   Marvel Studios:
