@@ -207,6 +207,10 @@ collections:
       - https://www.imdb.com/list/ls068976997/
       - https://www.imdb.com/list/ls027567380/
       - https://www.imdb.com/list/ls566502603/
+    trakt_list:
+      - https://trakt.tv/users/movistapp/lists/christmas-movies
+      - https://trakt.tv/users/2borno2b/lists/christmas-movies-extravanganza
+      - https://trakt.tv/users/plexmetamanager/lists/christmas-extravaganza-non-tv-movie?sort=released,asc 
 
   New Year's Day:
     variables:
